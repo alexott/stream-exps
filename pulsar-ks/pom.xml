@@ -15,20 +15,20 @@
   
   <dependencies>
     <dependency>
+      <groupId>org.apache.pulsar</groupId>
+      <artifactId>pulsar-client-kafka</artifactId>
+      <version>1.22.0-incubating</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-streams</artifactId>
-      <version>1.0.1</version>
+      <version>0.10.2.1</version>
       <exclusions>
         <exclusion>
           <groupId>org.apache.kafka</groupId>
           <artifactId>kafka-clients</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.pulsar</groupId>
-      <artifactId>pulsar-client-kafka</artifactId>
-      <version>1.22.0-incubating</version>
     </dependency>
   </dependencies>
 
